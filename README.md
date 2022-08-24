@@ -1,8 +1,13 @@
 # shop
 
-A new Flutter project.
+A flutter project for studies developed using (in specific):
 
-## Getting Started
+  - Provider
+  - Working with forms
+  
+This app displays a store.
+
+# Getting Started
 
 This project is a starting point for a Flutter application.
 
