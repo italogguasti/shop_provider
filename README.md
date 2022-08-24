@@ -1,4 +1,4 @@
-# shop
+# shop_provider
 
 A flutter project for studies developed using (in specific):
 
