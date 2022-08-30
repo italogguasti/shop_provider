@@ -150,7 +150,6 @@ class _ProductFormPageState extends State<ProductFormPage> {
                   if (price <= 0) {
                     return 'Informe um preço válido.';
                   }
-
                   return null;
                 },
               ),
