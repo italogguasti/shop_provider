@@ -18,7 +18,7 @@ class ProductsPage extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.add),
             onPressed: () {
-              Navigator.of(context).pushNamed(AppRoutes.product_form);
+              Navigator.of(context).pushNamed(AppRoutes.productForm);
             },
           ),
         ],

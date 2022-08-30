@@ -3,33 +3,35 @@ import 'package:shop/models/product.dart';
 final dummyProducts = [
   Product(
     id: 'p1',
-    name: 'Red Shirt',
-    description: 'A red shirt - it is pretty red!',
-    price: 29.99,
+    name: 'Master Sword',
+    description:
+        'Indestructible weapon Repels evil Deals high damage to enemies Controls time travel Emits sword beams.',
+    price: 999.99,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg',
+        'https://www.pngkey.com/png/detail/164-1644309_master-sword-legend-of-zelda-master-sword-pixel.png',
   ),
   Product(
     id: 'p2',
-    name: 'Trousers',
-    description: 'A nice pair of trousers.',
-    price: 59.99,
+    name: 'Hylian Shield',
+    description: 'It is strongest and most durable shield in the game.',
+    price: 999.99,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Trousers%2C_dress_%28AM_1960.022-8%29.jpg/512px-Trousers%2C_dress_%28AM_1960.022-8%29.jpg',
+        'https://www.kindpng.com/picc/m/616-6161215_pixel-art-zelda-master-sword-hd-png-download.png',
   ),
   Product(
     id: 'p3',
-    name: 'Yellow Scarf',
-    description: 'Warm and cozy - exactly what you need for the winter.',
-    price: 19.99,
-    imageUrl: 'https://live.staticflickr.com/4043/4438260868_cc79b3369d_z.jpg',
+    name: 'Fierce Deitys Mask',
+    description: 'Gives the power to transform into Fierce Deity.',
+    price: 282.10,
+    imageUrl:
+        'http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/f829f8e99b20d17.png',
   ),
   Product(
     id: 'p4',
-    name: 'A Pan',
-    description: 'Prepare any meal you want.',
-    price: 49.99,
+    name: 'Bombs',
+    description: 'BOOOOOOOOM!',
+    price: 79.79,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cast-Iron-Pan.jpg/1024px-Cast-Iron-Pan.jpg',
+        'http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/79351db2673df60.png',
   ),
 ];

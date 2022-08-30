@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
           AppRoutes.cart: (ctx) => const CartPage(),
           AppRoutes.orders: (ctx) => const OrdersPage(),
           AppRoutes.products: (ctx) => const ProductsPage(),
-          AppRoutes.product_form: (ctx) => const ProductFormPage(),
+          AppRoutes.productForm: (ctx) => const ProductFormPage(),
         },
         debugShowCheckedModeBanner: false,
       ),
