@@ -1,3 +1,4 @@
 class Constants {
-  static const productBaseUrl =
-      'https://shop-curse-default-rtdb.firebaseio.com/products.json';}
+  static const PRODUCT_BASE_URL =
+      'https://shop-curse-default-rtdb.firebaseio.com/products';
+}
