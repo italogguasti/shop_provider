@@ -1,6 +1,7 @@
 class Constants {
-  static const PRODUCT_BASE_URL =
+  static const productBaseUrl =
       'https://shop-curse-default-rtdb.firebaseio.com/products';
-  static const ORDER_BASE_URL =
+  static const orderBaseUrl =
       'https://shop-curse-default-rtdb.firebaseio.com/orders';
+  static const webApiKey = 'AIzaSyBrizk2KFd7y8TYIinuoLqcQBZMJgwycJA';
 }
