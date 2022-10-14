@@ -8,7 +8,7 @@ import 'package:shop/utils/constants.dart';
 class Auth with ChangeNotifier {
   String? _token;
   String? _email;
-  String? _uid;
+  String? userId;
   DateTime? _expiryDate;
 
   bool get isAuth {
@@ -25,7 +25,7 @@ class Auth with ChangeNotifier {
   }
 
   String? get uid {
-    return isAuth ? _uid : null;
+    return isAuth ? userId : null;
   }
 
   Future<void> _authenticate(
@@ -48,7 +48,7 @@ class Auth with ChangeNotifier {
     } else {
       _token = body['idToken'];
       _email = body['email'];
-      _uid = body['localId'];
+      userId = body['localId'];
 
       _expiryDate = DateTime.now().add(
         Duration(
@@ -65,5 +65,13 @@ class Auth with ChangeNotifier {
 
   Future<void> login(String email, String password) async {
     return _authenticate(email, password, 'signInWithPassword');
+  }
+
+  void logout() {
+    _token = null;
+    _email = null;
+    userId = null;
+    _expiryDate = null;
+    notifyListeners();
   }
 }
